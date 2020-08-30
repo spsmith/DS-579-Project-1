@@ -6,10 +6,10 @@ public class BallShooter : MonoBehaviour
 {
 	public GameObject BallPrefab;
 
+	public Material BallMaterial;
+
 	[Range(.1f, 100)]
 	public float Force = 1;
-
-	public Material BallMaterial;
 
 	void Shoot(Vector3 targetPosition)
 	{

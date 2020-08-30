@@ -411,7 +411,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &503226507
 MonoBehaviour:
@@ -426,8 +426,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BallPrefab: {fileID: 6699252308311191620, guid: 8ea20e45f67826e4a8718a57a8e41a5e, type: 3}
-  Force: 20
   BallMaterial: {fileID: 2100000, guid: 1a52d3ee8cf4a59448dd4c51011599cc, type: 2}
+  Force: 20
 --- !u!1 &792489542
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,7 +1599,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2063104352}
   m_Layer: 0
-  m_Name: Scenery
+  m_Name: Props
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1623,7 +1623,7 @@ Transform:
   - {fileID: 2440772321578846983}
   - {fileID: 3380164916557128195}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1616940613916099746
 MeshFilter:
